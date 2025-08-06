@@ -5,9 +5,9 @@ public class SumForTheFunc {
         //a3 + a2b + 2a2b + 2ab2 + ab2 + b3.
         int a = 2;
         int b = 3;
-        int c = 2;
         int sum;
         sum = (a + b) * (a + b) * (a + b);
         System.out.println(sum);
     }
 }
+    
