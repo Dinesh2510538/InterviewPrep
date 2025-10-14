@@ -9,7 +9,7 @@ public class Vowels {
             switch (word.charAt(i)){
                 case 'a':
                     sb.append('u');
-break; 
+break;
                 case 'e':
                 case 'i':
                 case 'o':

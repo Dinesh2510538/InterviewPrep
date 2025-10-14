@@ -2,7 +2,7 @@ package july9;
 
 public class Panagram {
     public static void main(String[] args) {
-        String str = "The quick brown fox jumps over the lay dog";
+        String str = "The quick brownz fox jumps over the lay dog";
         str = str.toLowerCase();
 
         if (str.length() < 26) {

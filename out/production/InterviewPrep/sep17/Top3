@@ -1,0 +1,14 @@
+Retrieve the top 3 highest-paid employees
+
+Table Name : Employees
+
+--  ID | Name    | Department | Salary | Joining_Date
+-- ----+---------+------------+--------+--------------
+--  1  | Rajesh  | IT         | 50000  | 2020-01-10
+--  2  | Sneha   | HR         | 45000  | 2019-04-12
+--  3  | Kiran   | Finance    | 52000  | 2021-08-23
+--  4  | Priya   | Marketing  | 48000  | 2018-06-15
+--  5  | Arjun   | IT         | 53000  | 2022-09-19
+
+-- Your Query Here
+SELECT * FROM Employees ORDER BY Salary DESC LIMIT 3;

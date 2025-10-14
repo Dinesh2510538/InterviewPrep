@@ -1,22 +1,25 @@
 public class second_largest {
     public static void main(String[] args) {
-                int[] a={1,4,8,5,9,10};
-                int largeNumber =a[0];
-                int middleNumber=a[1];
-                for (int i = 1; i <a.length ; i++) {
-
-                    if (a[i]>largeNumber) {
-                          largeNumber=a[i];
-                    }
-                    for(int j=0;j<i;j++){
-                            if(largeNumber>a[j]&&largeNumber!=middleNumber){
-                                middleNumber=a[j];
-
-                            }
-                    }
-
+        int[] a = {11, 4, 8, 5, 9, 10};
+        int temp = 0;
+        int n=2;
+        for (int i = 0; i < a.length; i++) {
+            for (int j = 0; j < a.length - 1 - i; j++) {
+                if (a[j] > a[j + 1]) {
+                    temp = a[j];
+                    a[j] = a[j + 1];
+                    a[j + 1] = temp;
                 }
-                System.out.println("The second largest value of this array is: "+middleNumber);
+
             }
         }
+        System.out.println("Sorted array: ");
+        for (int i = 0; i <a.length ; i++) {
+            System.out.print(a[i]+" ");
+        }
+        System.out.println();
+        System.out.println(a[a.length-n]);
+
+    }
+}
 

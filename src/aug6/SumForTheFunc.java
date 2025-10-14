@@ -10,4 +10,3 @@ public class SumForTheFunc {
         System.out.println(sum);
     }
 }
-    
