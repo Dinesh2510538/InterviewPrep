@@ -4,11 +4,11 @@ public class linear_search {
         int target=4;
 
         for (int i = 0; i < arr.length; i++) {
-            if(arr[i]==target){
-            System.out.println("the element "+arr[i]+" is present in the array");
+            if (arr[i] == target) {
+                System.out.println("the element " + arr[i] + " is present in the array");
 
+            }
         }
 
-        }
     }
 }

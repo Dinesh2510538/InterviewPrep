@@ -3,8 +3,8 @@ public class fibonacci {
         int a=0;
         int b=1;
         int c=0;
-        for (int i = 0; i <10 ; i++) {
-            System.out.println(a+" ");
+        for (int i = 2; i <10 ; i++) {
+            System.out.print(a+" ");
             c=a+b;
             a=b;
             b=c;

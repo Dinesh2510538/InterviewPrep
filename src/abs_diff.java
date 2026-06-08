@@ -25,12 +25,13 @@ ls.LinearSearch(difArr,Diff);
     class ls{
     public static void LinearSearch(int[] difArr,int Diff){
         System.out.println();
+        System.out.println("The pairs are: ");
         for (int i = 0; i < difArr.length-1; i++) {
             int value=Math.abs(difArr[i]-difArr[i+1]);
             if(value==Diff){
 
 
-                System.out.println("The pairs are: "+"( "+difArr[i]+" , "+difArr[i+1]+" )");
+                System.out.println("( "+difArr[i]+" , "+difArr[i+1]+" )");
             }
 
         }

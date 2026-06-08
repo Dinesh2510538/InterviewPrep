@@ -1,0 +1,13 @@
+-- Table Name : Products
+
+--  Product_ID | Product_Name | Category    | Price | Stock
+-- ------------+ -------------+-------------+-------+-------
+--  1          | Laptop       | Electronics | 55000 | 15
+--  2          | Mobile Phone | Electronics | 30000 | 30
+--  3          | Office Chair | Furniture   | 7000  | 10
+--  4          | Coffee Maker | Appliances  | 4000  | 20
+--  5          | Dining Table | Furniture   | 15000 | 5
+
+-- Your Query Here
+
+SELECT Category,Avg(Price) FROM Products GROUP BY Category;
